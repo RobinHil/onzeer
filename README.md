@@ -50,9 +50,9 @@ git clone https://github.com/RobinHil/onzeer.git
 2. Configure the database connection in `Database.java`:
 ```java
 database = new Database(
-    "jdbc:mysql://your-database-url:3306/your-database-name",
-    "username",
-    "password"
+    "database_url", 
+    "database_username",
+    "database_password"
 );
 ```
 
