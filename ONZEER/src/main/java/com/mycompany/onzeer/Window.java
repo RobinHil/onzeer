@@ -119,7 +119,7 @@ public class Window extends JFrame
         
         database = new Database(
                             "database_url", 
-                            "database_port",
+                            "database_username",
                             "database_password"
                               );
         
